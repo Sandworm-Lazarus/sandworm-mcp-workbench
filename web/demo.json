@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "project": "sandworm-mcp-workbench",
+  "engine_version": "0.1.0",
+  "mode": "fixture",
+  "upstream": {
+    "name": "@modelcontextprotocol/inspector",
+    "version": "2.14.0"
+  },
+  "summary": {
+    "tools": 1,
+    "changes": 0
+  },
+  "findings": [
+    {
+      "id": "read_fixture",
+      "status": "observed",
+      "message": "บันทึก schema แล้ว ยังไม่รับรองความปลอดภัย"
+    }
+  ],
+  "snapshot": {
+    "schema_version": 1,
+    "engine_version": "0.1.0",
+    "input_sha256": "8ed924992a686f19a9c4702fdd3777f5d9fed295c8f9c3a735daf8bdcac48e28",
+    "tools": [
+      {
+        "name": "read_fixture",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "key": {
+              "type": "string",
+              "enum": [
+                "hello"
+              ]
+            }
+          },
+          "required": [
+            "key"
+          ],
+          "additionalProperties": false
+        },
+        "description": "Return a fixed Thai fixture",
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false
+        },
+        "contract_sha256": "644c475010c83182925ba7f5a53b9963e54be4f6f009d9bdba452fc72f38d14a"
+      }
+    ],
+    "contract_sha256": "978973e6ed1a8ca618bc4a5bca882e51463b2f3534ea9236e93548a6b8cb9f8f"
+  },
+  "boundaries": [
+    "Names, descriptions and schemas are included; review before sharing.",
+    "Annotations are untrusted hints; schema diff is not a security certification."
+  ],
+  "sample_notice": "Synthetic bundled example; engine smoke evidence is recorded separately in reports/."
+}

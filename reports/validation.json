@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "project": "sandworm-mcp-workbench",
+  "passed": 33,
+  "failed": 0,
+  "source_sha256": {
+    "examples/report.json": "b10a65315b4c904ca01b9ec6b09e2823df96fbde9888cf0bb38642bd87e294f0",
+    "examples/server.mjs": "307103c7cd247971521f2ab9d52b8503d74e193c0dca240192180deec044e467",
+    "examples/tools.json": "8ed924992a686f19a9c4702fdd3777f5d9fed295c8f9c3a735daf8bdcac48e28",
+    "package-lock.json": "94520a8cdb7f32ed9f92381e7bbc4d4a83ea2c40b7b701832fe43d94387cf73b",
+    "package.json": "5314661bb40886039174e2f1c469d61f44319e108f1dcbe677bdc22a14e7543f",
+    "scripts/validate.mjs": "b0f945fe4b63bb5fd92ebca72ddf2efd3ff4dd06602b2a5b4109ee8e6cdfef6d",
+    "src/cli.mjs": "d93d4dd96dcd08f684f477f5df1b995df87ad77b25627d872142767cc8526db4",
+    "src/workbench.mjs": "078686b4c2e2d5b5617ace4025ec7a1306a927fe21b689a2abf41504e952bd73",
+    "tests/web.test.cjs": "4dd1a5472ee0a89fc5f48fde0e6cf69a6ffb7a67ba7418d7696f1f0dffb5148f",
+    "tests/workbench.test.mjs": "03266d1ad4e8fe55701c051863b7c4e64b6bc7872ecdefe04707bf067ef74bf0",
+    "web/_headers": "17c3b142c0879287e6ee2170c9323a32094953821992dfa1487516892d874f56",
+    "web/app.js": "335971057a297efb7a7dd4466eb11787db32d11a05d271b1cd9ae9cf84d0e11d",
+    "web/demo.json": "8de6e2d8f34cc6dc00be8e3e9c22c2b614a714668ae27e9759a30a1a6cc6bfd1",
+    "web/fonts/Anuphan-OFL.txt": "cbc57ac0dddda1b70f246a16358fc3c2a32628a23a6d10ef64f746141d3fb159",
+    "web/fonts/Chakra-Petch-OFL.txt": "13831d02389d917d22fcfa6c79f98f8acbf61d230add0e73a4d4dc5f3bfb9e56",
+    "web/fonts/JetBrains-Mono-OFL.txt": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d",
+    "web/index.html": "75a04b3aae7b76cb9ab4f274eb40f276b4480cf50576aff59b4b146641bfdc90",
+    "web/mark.svg": "ee731288307e122e75090d2b39fd735667292e8b069b430b8d760a2a3c3cd5ac",
+    "web/network.svg": "31596a6bbc4dea95c4abc8edd7b98bd9f00bad7ef797681de1b0574cb80f0e38",
+    "web/report-core.js": "7ee673ea5f6354fb86971883b22c73bb8baaba4a3db60ab273685f458db4c894",
+    "web/styles.css": "8924419cecaf69c9c39a29955a126f6773e6e33cff92849f525fbf6b8bdd151a"
+  },
+  "upstream_check": {
+    "name": "@modelcontextprotocol/inspector",
+    "version": "2.14.0",
+    "status": "passed",
+    "scope": "actual pinned Inspector CLI tools/list and tools/call against bundled synthetic stdio server; no external MCP tested"
+  }
+}

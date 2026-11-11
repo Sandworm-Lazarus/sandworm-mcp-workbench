@@ -1,0 +1,1 @@
+{"tools":[{"name":"read_fixture","description":"Return a fixed Thai fixture","inputSchema":{"type":"object","properties":{"key":{"type":"string","enum":["hello"]}},"required":["key"],"additionalProperties":false},"annotations":{"readOnlyHint":true,"destructiveHint":false}}]}
